@@ -1,3 +1,4 @@
-const message: string = "message, ts!!";
+import { lesson } from './2/2.3';
 
-console.log(message);
+const lesson23res = lesson();
+console.log(lesson23res);
