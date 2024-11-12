@@ -20,12 +20,12 @@ export default [
     {
         languageOptions: {
             ecmaVersion: 2023,
-            sourceType: "module",
+            sourceType: 'module',
             globals: {
                 ...globals.browser,
                 ...globals.node,
-                myCustomGlobal: "readonly"
-            }
+                myCustomGlobal: 'readonly',
+            },
         },
 
         files: ['src/**/*.js', 'src/**/*.ts'],
@@ -52,8 +52,6 @@ export default [
                     'newlines-between': 'always',
                 },
             ],
-
-            '@typescript-eslint/no-unused-expressions': 'off',
         },
     },
 ];
