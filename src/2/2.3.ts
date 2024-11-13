@@ -26,6 +26,12 @@ export function lesson() {
     /**暗黙の型変換 */
     rl.question('文字列を入力してください：', (line) => {
         console.log(`${line}が入力されました。`);
-        rl.close;
+        rl.close();
+    });
+
+    rl.question('数値を入力してネ。：', (num) => {
+        const result = Number(num) + 2;
+        console.log(result);
+        rl.close();
     });
 }

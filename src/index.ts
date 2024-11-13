@@ -1,4 +1,3 @@
-import { lesson } from './2/2.3.js';
+import { lesson1 } from './2/otameshi.js';
 
-const lesson23res = lesson();
-console.log(lesson23res);
+const res = lesson1();
